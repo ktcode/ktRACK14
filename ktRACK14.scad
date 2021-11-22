@@ -17,11 +17,19 @@ difference()
     translate([-20+th+gap1, -gap1, (28+th*1)/2-20/2]) cube( [20, 28+th*2+gap2, 20]);
     translate([30+th-gap1, (28+th*2)/2-15/2, -gap1]) cube( [20, 15, 15]);
     
-    #translate([((30+th*2)/10)*3, -3, -gap1]) rotate([0, 0, 0]) cylinder(  2+gap2, d1=2.5, d2=4.5, $fn=100);
-    #translate([((30+th*2)/10)*3, -3, -gap1]) rotate([180, 0, 0]) cylinder(  10, d1=2.5, d2=2.5, $fn=100);
-    #translate([((30+th*2)/10)*3, -3, 2]) rotate([0, 0, 0]) cylinder(  10, d1=4.5, d2=4.5, $fn=100);
-    #translate([((30+th*2)/10)*8, -3, -gap1]) rotate([0, 0, 0]) cylinder(  2+gap2, d1=2.5, d2=4.5, $fn=100);
+    #translate([((30+th*2)/10)*3, -3, 2-gap1]) rotate([0, 0, 0]) cylinder(  2+gap2, d1=2.5, d2=4.5, $fn=100);
+    #translate([((30+th*2)/10)*3, -3, 2-gap1]) rotate([180, 0, 0]) cylinder(  10, d1=2.5, d2=2.5, $fn=100);
+    #translate([((30+th*2)/10)*3, -3, 2+2-gap1]) rotate([0, 0, 0]) cylinder(  10, d1=6, d2=6, $fn=100);
     
-    #translate([((30+th*2)/10)*3, +3+28+th*2, -gap1]) rotate([0, 0, 0]) cylinder(  2+gap2, d1=2.5, d2=4.5, $fn=100);
-    #translate([((30+th*2)/10)*8, +3+28+th*2, -gap1]) rotate([0, 0, 0]) cylinder(  2+gap2, d1=2.5, d2=4.5, $fn=100);
+    #translate([((30+th*2)/10)*8, -3, 2-gap1]) rotate([0, 0, 0]) cylinder(  2+gap2, d1=2.5, d2=4.5, $fn=100);
+    #translate([((30+th*2)/10)*8, -3, 2-gap1]) rotate([180, 0, 0]) cylinder(  10, d1=2.5, d2=2.5, $fn=100);
+    #translate([((30+th*2)/10)*8, -3, 2+2-gap1]) rotate([0, 0, 0]) cylinder(  10, d1=6, d2=6, $fn=100);
+    
+    #translate([((30+th*2)/10)*3, +3+28+th*2, 2-gap1]) rotate([0, 0, 0]) cylinder(  2+gap2, d1=2.5, d2=4.5, $fn=100);
+    #translate([((30+th*2)/10)*3, +3+28+th*2, 2-gap1]) rotate([180, 0, 0]) cylinder(  10, d1=2.5, d2=2.5, $fn=100);
+    #translate([((30+th*2)/10)*3, +3+28+th*2, 2+2-gap1]) rotate([0, 0, 0]) cylinder(  10, d1=6, d2=6, $fn=100);
+    
+    #translate([((30+th*2)/10)*8, +3+28+th*2, 2-gap1]) rotate([0, 0, 0]) cylinder(  2+gap2, d1=2.5, d2=4.5, $fn=100);
+    #translate([((30+th*2)/10)*8, +3+28+th*2, 2-gap1]) rotate([180, 0, 0]) cylinder(  10, d1=2.5, d2=2.5, $fn=100);
+    #translate([((30+th*2)/10)*8, +3+28+th*2, 2+2-gap1]) rotate([0, 0, 0]) cylinder(  10, d1=6, d2=6, $fn=100);
 }
